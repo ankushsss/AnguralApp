@@ -1,0 +1,62 @@
+
+<section id="home-section" class="hero">
+    <div class="home-slider  owl-carousel">
+      <div class="slider-item ">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"  style="display:flex; justify-content: center; align-items: center; background-image: url(../../assets/Images/ankush3.png); width: 100%; background-position: right; background-repeat: no-repeat; background-size: 50%; " data-scrollax-parent="true">
+            <div class="one-third js-fullheight order-md-last img" style="background-image:url(images/ankush.png);">
+              <div class="overlay"></div>
+            </div>
+            <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+              <div class="text">
+                <span class="subheading">Hello!</span>
+                <h1 class="mb-4 mt-3">I'm <span>Ankush Saxena</span></h1>
+                <h2 class="mb-4">A Freelance Web Designer</h2>
+                <p><a href='{{details.linkdin}}' class="btn btn-primary py-3 px-4">Hire me on Linkdin</a> <a href="{{details.github}}" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+        <div class="container">
+          <div class="row d-flex">
+            <div class="col-md-6 col-lg-5 d-flex">
+              <div class="img-about img d-flex align-items-stretch">
+                <div class="overlay"></div>
+                <div class="img d-flex align-self-stretch align-items-center" style="background-image:url(../../assets/Images/ankush.png);">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+              <div class="row justify-content-start pb-3">
+                <div class="col-md-12 heading-section ">
+                  <h1 class="big">About</h1>
+                  <h2 class="mb-4">About Me</h2>
+                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  <ul class="about-info mt-4 px-md-0 px-2">
+                    <li class="d-flex"><span>Name:</span> <span>{{details.name |titlecase}}</span></li>
+                    <li class="d-flex"><span>Date of birth:</span> <span>{{details.dob}}</span></li>
+                    <li class="d-flex"><span>Address:</span> <span>{{details.address |titlecase}}</span></li>
+                    <li class="d-flex"><span>Zip code:</span> <span>{{details.pincode}}</span></li>
+                    <li class="d-flex"><span>Email:</span> <span>{{details.email}}</span></li>
+                    <li class="d-flex"><span>Phone: </span> <span>{{details.phone}}</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="counter-wrap d-flex mt-md-3">
+                <div class="text">
+                  <p class="mb-4">
+                    <span class="number" data-number="120">{{details.projects}}</span>
+                    <span>Project complete</span>
+                  </p>
+                  <p><a href="../../../assets/ankush resume.pdf" class="btn btn-primary py-3 px-3">Download CV</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
